@@ -23,7 +23,7 @@ export default async function Page() {
 			<h1 className="font-bold text-2xl">Answer</h1>
 			<div className="text-gray-300">Hi Trevor,</div>
 			<div className="text-gray-300">
-				Thank you for reaching out about Vercel's compute options. Let me break
+				Thank you for reaching out about Vercel&apos;s compute options. Let me break
 				down each option and help you decide which might suit your use case
 				best.
 			</div>
@@ -52,13 +52,13 @@ export default async function Page() {
 			</div>
 			<div className="text-gray-300">
 				Given your specific needs, Edge Functions are likely your best primary
-				solution here. They're ideal for your geolocation-based personalization
+				solution here. They&apos;re ideal for your geolocation-based personalization
 				because they run closest to your users, providing the fastest possible
-				response times. They can validate your visitor's location and display
+				response times. They can validate your visitor&apos;s location and display
 				available products or restrict certain items based on their geolocation.
 			</div>
 			<div className="text-gray-300">
-				I hope this helps. Please let me know if you'd like me to elaborate on
+				I hope this helps. Please let me know if you&apos;d like me to elaborate on
 				any of these function types or if I can assist with anything else!
 			</div>
 			<div className="text-gray-300">Best regards,</div>

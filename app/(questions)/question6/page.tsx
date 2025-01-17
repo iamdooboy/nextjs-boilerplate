@@ -13,11 +13,11 @@ export default async function Page() {
 				have two questions:
 			</div>
 			<div className="text-gray-300">
-				Why didn't my MIUs cover this bill? I didn't use all my MIUs la
-				month...so why didn't those roll over?
+				Why didn&apos;t my MIUs cover this bill? I didn&apos;t use all my MIUs la
+				month...so why didn&apos;t those roll over?
 			</div>
 			<div className="text-gray-300">
-				What would be the best way to help mitigate this so we don't se these
+				What would be the best way to help mitigate this so we don&apos;t se these
 				overage bills in the future?
 			</div>
 			<div className="text-gray-300">
@@ -37,8 +37,8 @@ export default async function Page() {
 			<h1 className="font-bold text-2xl">Answer</h1>
 			<div className="text-gray-300">Hi enterprise customer,</div>
 			<div className="text-gray-300">
-				I'd be delighted to answer your questions. Your MIUs didn't cover this
-				month's billing cycle because MIUs by design do not roll over.This means
+				I&apos;d be delighted to answer your questions. Your MIUs didn&apos;t cover this
+				month&apos;s billing cycle because MIUs by design do not roll over.This means
 				that any unused MIUs from the previous month will expire at the end of
 				the billing period. Your overage charges were due to high fast origin
 				transfer and fast data transfer usage that exceeded your allocated MIUs
@@ -69,7 +69,7 @@ export default async function Page() {
 			</div>
 			<div className="text-gray-300">Optimizing Fast Data Transfer</div>
 			<div className="text-gray-300">
-				- Use Vercel's Image Optimization to serve optimized media tailored to
+				- Use Vercel&apos;s Image Optimization to serve optimized media tailored to
 				the requesting device. Learn more about Image Optimization
 				https://vercel.com/docs/image-optimization
 			</div>

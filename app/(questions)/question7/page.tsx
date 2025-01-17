@@ -25,12 +25,12 @@ export default async function Page() {
 			<div className="text-gray-300">
 				It is our pleasure to partner with you and your team as you migrate to
 				the Enterprise version of our platform with Vercel Secure Compute. As a
-				Fortune 500 firm, we understand your organization's complex security and
-				performance needs, and we're committed to ensuring a seamless transition
+				Fortune 500 firm, we understand your organization&apos;s complex security and
+				performance needs, and we&apos;re committed to ensuring a seamless transition
 				and continued success.
 			</div>
 			<div className="text-gray-300">
-				To help you get started, I've outlined key resources and next steps:
+				To help you get started, I&apos;ve outlined key resources and next steps:
 			</div>
 			<div className="text-gray-300">Incremental Migration Guide</div>
 			<div className="text-gray-300">
@@ -104,9 +104,9 @@ export default async function Page() {
 				- https://vercel.com/docs/accounts/plans/enterprise
 			</div>
 			<div className="text-gray-300">
-				I'd love to schedule a call with you to dive deeper into Vercel Secure
+				I&apos;d love to schedule a call with you to dive deeper into Vercel Secure
 				Compute, explore the Enterprise roadmap, and answer any questions you
-				may have. Please let me know your availability, and I'll set up a
+				may have. Please let me know your availability, and I&apos;ll set up a
 				meeting at your convenience.
 			</div>
 			<div className="text-gray-300">I look forward to working with you!</div>

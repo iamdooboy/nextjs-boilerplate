@@ -20,7 +20,7 @@ export default async function Page() {
 			<h1 className="font-bold text-2xl">Answer</h1>
 			<div className="text-gray-300">Hi Christy,</div>
 			<div className="text-gray-300">
-				Thank you for reaching out with your question! I'd be happy to explain
+				Thank you for reaching out with your question! I&apos;d be happy to explain
 				the difference between React and Next.js, as well as the benefits of
 				using Next.js.
 			</div>
@@ -55,12 +55,12 @@ export default async function Page() {
 			<div className="text-gray-300">
 				- Performance Enhancements - Next.js helps optimize Core Web Vitals like
 				Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS), and First
-				Input Delay (FID), directly impacting your site's performance, user
+				Input Delay (FID), directly impacting your site&apos;s performance, user
 				experience, and SEO. Learn more about Core Web Vitals
 				https://vercel.com/guides/optimizing-core-web-vitals-in-2024
 			</div>
 			<div className="text-gray-300">
-				Please let me know if you'd like me to dive deeper into any specific
+				Please let me know if you&apos;d like me to dive deeper into any specific
 				feature or if I can assist with anything else!
 			</div>
 			<div className="text-gray-300">Best regards,</div>

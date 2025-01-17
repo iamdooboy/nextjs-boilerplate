@@ -29,7 +29,7 @@ export default async function Page() {
 				secure, and protected from threats like bots and online attacks.
 			</div>
 			<div className="text-gray-300">
-				If you'd like to learn more about Vercel and what we offer, here are
+				If you&apos;d like to learn more about Vercel and what we offer, here are
 				some helpful resources:
 			</div>
 			<div className="text-gray-300">
@@ -43,7 +43,7 @@ export default async function Page() {
 			</div>
 			<div className="text-gray-300">https://vercel.com/security</div>
 			<div className="text-gray-300">
-				If you have any questions or need more information, don't hesitate to
+				If you have any questions or need more information, don&apos;t hesitate to
 				reach out!
 			</div>
 			<div className="text-gray-300">Best regards,</div>

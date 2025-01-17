@@ -37,15 +37,15 @@ export default async function Page() {
 			</div>
 			<div className="text-gray-300">
 				While reviewing your account, I also noticed some concerns with your
-				website's Core Web Vitals. Your Largest Contentful Paint (LCP) score
+				website&apos;s Core Web Vitals. Your Largest Contentful Paint (LCP) score
 				isn’t quite where it needs to be. Addressing this can improve the user
 				experience for your mobile game audience. You can learn more about LCP
 				here
 				https://vercel.com/docs/speed-insights/metrics#largest-contentful-paint-lcp
 			</div>
 			<div className="text-gray-300">
-				I'd love the chance to discuss some strategies to optimize your usage
-				while improving your site's performance.
+				I&apos;d love the chance to discuss some strategies to optimize your usage
+				while improving your site&apos;s performance.
 			</div>
 			<div className="text-gray-300">I look forward to hearing from you!</div>
 			<div className="text-gray-300">Best regards,</div>

@@ -15,7 +15,7 @@ export default async function Page() {
 				subscription. The executive sponsor is the VP of marketing and Vercel
 				hosts their marketing pages. They have a reverse proxy in front of
 				Vercel (Cloudflare) and history shows some errors in their builds. The
-				manager's name is Alex (she/her), Engineering Manager The champion,
+				manager&apos;s name is Alex (she/her), Engineering Manager The champion,
 				Tanner – the lead on the project – it is found out, has left the
 				company.
 			</div>
@@ -28,7 +28,7 @@ export default async function Page() {
 				moving forward.
 			</div>
 			<div className="text-gray-300">
-				We've noticed a significant decrease in your builds and overall activity
+				We&apos;ve noticed a significant decrease in your builds and overall activity
 				quarter-over-quarter. Given how important your marketing pages are, I
 				wanted to check in to understand the factors contributing to this change
 				and see how we can best support you.
@@ -44,7 +44,7 @@ export default async function Page() {
 				Cloudflare.
 			</div>
 			<div className="text-gray-300">
-				I'd love to schedule some time with you to review your current
+				I&apos;d love to schedule some time with you to review your current
 				deployment workflow, address any technical challenges, and explore ways
 				to help you get the most out of Vercel. Let me know your availability, I
 				look forward to connecting with you!

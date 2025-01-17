@@ -17,7 +17,7 @@ export default async function Page() {
 				structure each response effectively.
 			</div>
 			<div className="text-gray-300">
-				For instance, I was confused by the 4th bullet under "Things to Note":
+				For instance, I was confused by the 4th bullet under &quot;Things to Note&quot;:
 				“...When answering, feel free to list any relevant documentation you
 				found or details about your decision-making process.”
 			</div>
@@ -33,7 +33,7 @@ export default async function Page() {
 			</div>
 			<div className="text-gray-300">
 				Both approaches achieve the same result, but I wanted to ensure I
-				understand what's allowed to avoid any confusion.
+				understand what&apos;s allowed to avoid any confusion.
 			</div>
 		</div>
 	);
