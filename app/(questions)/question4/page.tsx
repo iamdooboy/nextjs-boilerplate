@@ -27,66 +27,77 @@ export default async function Page() {
 				If you&apos;d like to learn more about Vercel and what we offer, here
 				are some helpful resources:
 			</div>
-			<ul className='space-y-2'>
-			  <li className="text-gray-300">
-  				<span className="underline">
-  					<a
-  						href="https://vercel.com"
-  						target="_blank"
-  						rel="noopener noreferrer"
-  					>
-  						Vercel Homepage
-  					</a>
-  				</span>
-  			</li>
-  			<li className="text-gray-300">
-  				<span className="underline">
-  					<a
-  						href="https://vercel.com/docs"
-  						target="_blank"
-  						rel="noopener noreferrer"
-  					>
-  						Vercel Documentations
-  					</a>
-  				</span>
-  			</li>
-  			<li className="text-gray-300">
-  				<span className="underline">
-  					<a
-  						href="https://vercel.com/docs/getting-started-with-vercel"
-  						target="_blank"
-  						rel="noopener noreferrer"
-  					>
-  						Get started with Vercel
-  					</a>
-  				</span>
-  			</li>
-  			<li className="text-gray-300">
-  				<span className="underline">
-  					<a
-  						href="https://vercel.com/docs/frameworks/more-frameworks"
-  						target="_blank"
-  						rel="noopener noreferrer"
-  					>
-  						Supported Frameworks on Vercel
-  					</a>
-  				</span>
-  			</li>
-  			<li className="text-gray-300">
-  				<span className="underline">
-  					<a
-  						href="https://vercel.com/security"
-  						target="_blank"
-  						rel="noopener noreferrer"
-  					>
-  						Vercel Security
-  					</a>
-  				</span>
-  			</li>
+			<ul className="space-y-2">
+				<li className="text-gray-300">
+					<span className="underline">
+						<a
+							href="https://vercel.com"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Vercel Homepage
+						</a>
+					</span>
+				</li>
+				<li className="text-gray-300">
+					<span className="underline">
+						<a
+							href="https://vercel.com/docs"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Vercel Documentations
+						</a>
+					</span>
+				</li>
+				<li className="text-gray-300">
+					<span className="underline">
+						<a
+							href="https://vercel.com/docs/getting-started-with-vercel"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Get started with Vercel
+						</a>
+					</span>
+				</li>
+				<li className="text-gray-300">
+					<span className="underline">
+						<a
+							href="https://vercel.com/docs/frameworks/more-frameworks"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Supported Frameworks on Vercel
+						</a>
+					</span>
+				</li>
+				<li className="text-gray-300">
+					<span className="underline">
+						<a
+							href="https://vercel.com/security"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Vercel Security
+						</a>
+					</span>
+				</li>
 			</ul>
 			<div className="text-gray-300">
 				If you have any questions or need more information, don&apos;t hesitate
 				to reach out!
+			</div>
+			<div className="text-gray-300">
+				<span className="underline">
+					<a
+						href="https://cal.com/duyle/30min"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Click here to schedule a call
+					</a>
+				</span>
 			</div>
 			<div className="text-gray-300">Best regards,</div>
 		</div>

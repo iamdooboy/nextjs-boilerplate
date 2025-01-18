@@ -127,11 +127,12 @@ export default async function Page() {
 					</li>
 				))}
 			</ul>
-			<div className="text-white rounded-full bg-[#a431f7] w-max px-3 py-1">
+			<div className="text-white rounded-full bg-[#380a59] w-max px-3 py-1">
 				Overview of Enterprise Offering
 			</div>
 
 			<div className="text-gray-300">
+				<span className="mr-2">-</span>
 				<span className="underline">
 					<a
 						href="https://vercel.com/docs/accounts/plans/enterprise"
@@ -149,6 +150,17 @@ export default async function Page() {
 				a meeting at your convenience.
 			</div>
 			<div className="text-gray-300">I look forward to working with you!</div>
+			<div className="text-gray-300">
+				<span className="underline">
+					<a
+						href="https://cal.com/duyle/30min"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Click here to schedule a call
+					</a>
+				</span>
+			</div>
 			<div className="text-gray-300">Best regards,</div>
 		</div>
 	);

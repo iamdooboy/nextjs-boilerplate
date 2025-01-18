@@ -52,6 +52,17 @@ export default async function Page() {
 			<div className="text-gray-300">
 				I look forward to connecting with you!
 			</div>
+			<div className="text-gray-300">
+				<span className="underline">
+					<a
+						href="https://cal.com/duyle/30min"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Click here to schedule a call
+					</a>
+				</span>
+			</div>
 			<div className="text-gray-300">Best regards,</div>
 		</div>
 	);

@@ -9,7 +9,7 @@ export default async function Page() {
 			</div>
 			<div className="text-gray-300">
 				Why didn&apos;t my MIUs cover this bill? I didn&apos;t use all my MIUs
-				la month...so why didn&apos;t those roll over?
+				last month...so why didn&apos;t those roll over?
 			</div>
 			<div className="text-gray-300">
 				What would be the best way to help mitigate this so we don&apos;t se
@@ -34,16 +34,28 @@ export default async function Page() {
 			<div className="text-gray-300">
 				I&apos;d be delighted to answer your questions. Your MIUs didn&apos;t
 				cover this month&apos;s billing cycle because MIUs by design do not roll
-				over.This means that any unused MIUs from the previous month will expire
-				at the end of the billing period. Your overage charges were due to high
-				fast origin transfer and fast data transfer usage that exceeded your
-				allocated MIUs for the month.
+				over. This means that any unused MIUs from the previous month will
+				expire at the end of the billing period. Your overage charges were due
+				to high fast origin transfer and fast data transfer usage that exceeded
+				your allocated MIUs for the month.
+			</div>
+			<div className="text-gray-300">
+				This could be a sign that your website is gaining more traffic, which is
+				always exciting to see! Increased traffic often brings new opportunities
+				for growth. That said, I completely understand how unexpected changes
+				like this can be concerning, especially when they affect your budget.
+			</div>
+			<div className="text-gray-300">
+				I’m here to help you navigate these changes and ensure you have the
+				tools and strategies to handle them smoothly moving forward.
 			</div>
 			<div className="text-gray-300">
 				Here are some strategies you can use to optimize your data to mitigate
 				this in the future:
 			</div>
-			<div className="text-gray-300">Optimizing Fast Origin Transfer</div>
+			<div className="text-white rounded-full bg-[#0f2e18] w-max px-3 py-1">
+				Optimizing Fast Origin Transfer
+			</div>
 			<div className="text-gray-300">
 				- Reduce the size of the response by ensuring your Function only respond
 				with relevant data, excluding unnecessary API fields
@@ -78,7 +90,9 @@ export default async function Page() {
 					</a>
 				</span>
 			</div>
-			<div className="text-gray-300">Optimizing Fast Data Transfer</div>
+			<div className="text-white rounded-full bg-[#10233d] w-max px-3 py-1">
+				Optimizing Fast Data Transfer
+			</div>
 			<div className="text-gray-300">
 				- Use Vercel&apos;s Image Optimization to serve optimized media tailored
 				to the requesting device. Learn more about&nbsp;
@@ -109,7 +123,9 @@ export default async function Page() {
 				- Use the Monitoring tab to further analyze data transfer of your
 				projects.
 			</div>
-			<div className="text-gray-300">Setting Up Notifications</div>
+			<div className="text-white rounded-full bg-[#380a59] w-max px-3 py-1">
+				Setting Up Notifications
+			</div>
 			<div className="text-gray-300">
 				You can also configure notifications for MIUs from the My Notification
 				tab in the Settings section of the dashboard. This will notify you via
@@ -133,6 +149,17 @@ export default async function Page() {
 				I hope these suggestions help optimize your usage and reduce future
 				overage charges. Should you have any further questions, feel free to
 				reach out.
+			</div>
+			<div className="text-gray-300">
+				<span className="underline">
+					<a
+						href="https://cal.com/duyle/30min"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Click here to schedule a call
+					</a>
+				</span>
 			</div>
 			<div className="text-gray-300">Best regards,</div>
 		</div>

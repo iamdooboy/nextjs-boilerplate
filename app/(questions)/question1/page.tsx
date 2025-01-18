@@ -93,8 +93,24 @@ export default async function Page() {
 				</span>
 			</div>
 			<div className="text-gray-300">
+				Based on what you’re looking to achieve, Next.js is a fantastic fit for
+				your marketing efforts. By adopting Next.js, your team can build faster,
+				more SEO-friendly pages that hit all the right performance benchmarks.
+			</div>
+			<div className="text-gray-300">
 				Please let me know if you&apos;d like me to dive deeper into any
 				specific feature or if I can assist with anything else!
+			</div>
+			<div className="text-gray-300">
+				<span className="underline">
+					<a
+						href="https://cal.com/duyle/30min"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Click here to schedule a call
+					</a>
+				</span>
 			</div>
 			<div className="text-gray-300">Best regards,</div>
 		</div>

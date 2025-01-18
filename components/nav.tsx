@@ -38,17 +38,17 @@ export const Nav = () => {
 	const pathname = usePathname();
 
 	return (
-		<nav className="bg-gray-800 p-4 rounded-md shadow-md">
+		<header className="bg-[#0a0a0a] border-[#262626] border-b p-4 sticky top-0">
 			<ul className="flex flex-wrap justify-between gap-2 sm:gap-4">
 				{navItems.map((item) => (
 					<li key={item.href}>
 						<Link
 							href={item.href}
-							className={`flex items-center px-3 py-2 rounded-md text-sm font-medium transition-colors
+							className={`flex items-center px-3 py-2 rounded-md text-sm font-medium
                 ${
 									pathname === item.href
-										? "bg-black text-white"
-										: "text-gray-300 hover:bg-gray-700 hover:text-white"
+										? "bg-black border border-[#262626] text-white"
+										: "text-gray-400 hover:text-white"
 								}`}
 						>
 							{item.icon && <item.icon className="w-4 h-4 mr-2 text-white" />}
@@ -57,6 +57,6 @@ export const Nav = () => {
 					</li>
 				))}
 			</ul>
-		</nav>
+		</header>
 	);
 };

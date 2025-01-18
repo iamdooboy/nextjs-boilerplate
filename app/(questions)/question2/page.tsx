@@ -80,6 +80,17 @@ export default async function Page() {
 				I hope this helps. Please let me know if you&apos;d like me to elaborate
 				on any of these function types or if I can assist with anything else!
 			</div>
+			<div className="text-gray-300">
+				<span className="underline">
+					<a
+						href="https://cal.com/duyle/30min"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Click here to schedule a call
+					</a>
+				</span>
+			</div>
 			<div className="text-gray-300">Best regards,</div>
 		</div>
 	);
