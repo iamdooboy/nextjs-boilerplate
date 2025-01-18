@@ -1,11 +1,6 @@
-
-
-
-
-
 export default async function Page() {
 	return (
-		<div className="flex flex-col justify-items-center min-h-screen max-w-3xl p-20 gap-4 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+		<div className="flex flex-col justify-items-center  gap-4 font-[family-name:var(--font-geist-sans)]">
 			<h1 className="font-bold text-2xl">Question 2</h1>
 			<div className="text-gray-300">
 				A customer has reached out asking, “When should I choose to use Edge
@@ -23,43 +18,67 @@ export default async function Page() {
 			<h1 className="font-bold text-2xl">Answer</h1>
 			<div className="text-gray-300">Hi Trevor,</div>
 			<div className="text-gray-300">
-				Thank you for reaching out about Vercel&apos;s compute options. Let me break
-				down each option and help you decide which might suit your use case
-				best.
+				Thank you for reaching out about Vercel&apos;s compute options. Let me
+				break down each option and help you decide which might suit your use
+				case best.
 			</div>
 			<div className="text-gray-300">
 				- Edge Functions - Edge Functions are ideal for ultra-low latency
 				responses, lightweight and fast computations, global distribution of
 				your function, geolocation-based content, feature flags, and
-				personalization. Learn more about Edge function
-				https://vercel.com/docs/infrastructure/compute#edge-functions
+				personalization. Learn more about&nbsp;
+				<span className="underline">
+					<a
+						href="https://vercel.com/docs/infrastructure/compute#edge-functions"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Edge function
+					</a>
+				</span>
 			</div>
 			<div className="text-gray-300">
 				- Serverless Functions - Serverless Functions are better suited for
 				tasks such as intensive and complex computations, direct database
 				interactions, longer-running processes, access to Node.js ecosystem
 				libraries, payment processing, webhook handlers, and machine learning
-				inference. Learn more about Serverless function
-				https://vercel.com/docs/infrastructure/compute#serverless-functions
+				inference. Learn more about&nbsp;
+				<span className="underline">
+					<a
+						href="https://vercel.com/docs/infrastructure/compute#serverless-functions"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Serverless function
+					</a>
+				</span>
 			</div>
 			<div className="text-gray-300">
 				- Edge Middleware - Edge Middleware is designed for lightweight
 				operations before a request is processed such as request modification,
 				authentication checks, perform redirects, set custom headers, language
-				detection, A/B testing, and bot identification. Learn more about Edge
-				Middleware
-				https://vercel.com/docs/infrastructure/compute#edge-middleware
+				detection, A/B testing, and bot identification. Learn more about&nbsp;
+				<span className="underline">
+					<a
+						href="https://vercel.com/docs/infrastructure/compute#edge-middleware"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Edge Middleware
+					</a>
+				</span>
 			</div>
 			<div className="text-gray-300">
 				Given your specific needs, Edge Functions are likely your best primary
-				solution here. They&apos;re ideal for your geolocation-based personalization
-				because they run closest to your users, providing the fastest possible
-				response times. They can validate your visitor&apos;s location and display
-				available products or restrict certain items based on their geolocation.
+				solution here. They&apos;re ideal for your geolocation-based
+				personalization because they run closest to your users, providing the
+				fastest possible response times. They can validate your visitor&apos;s
+				location and display available products or restrict certain items based
+				on their geolocation.
 			</div>
 			<div className="text-gray-300">
-				I hope this helps. Please let me know if you&apos;d like me to elaborate on
-				any of these function types or if I can assist with anything else!
+				I hope this helps. Please let me know if you&apos;d like me to elaborate
+				on any of these function types or if I can assist with anything else!
 			</div>
 			<div className="text-gray-300">Best regards,</div>
 		</div>

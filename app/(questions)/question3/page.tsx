@@ -1,6 +1,6 @@
 export default async function Page() {
 	return (
-		<div className="flex flex-col justify-items-center min-h-screen max-w-3xl p-20 gap-4 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+		<div className="flex flex-col justify-items-center  gap-4 font-[family-name:var(--font-geist-sans)]">
 			<h1 className="font-bold text-2xl">Question 3</h1>
 			<div className="text-gray-300">
 				Through use of a monitoring dashboard, you notice that an Enterprise
@@ -28,10 +28,10 @@ export default async function Page() {
 				moving forward.
 			</div>
 			<div className="text-gray-300">
-				We&apos;ve noticed a significant decrease in your builds and overall activity
-				quarter-over-quarter. Given how important your marketing pages are, I
-				wanted to check in to understand the factors contributing to this change
-				and see how we can best support you.
+				We&apos;ve noticed a significant decrease in your builds and overall
+				activity quarter-over-quarter. Given how important your marketing pages
+				are, I wanted to check in to understand the factors contributing to this
+				change and see how we can best support you.
 			</div>
 			<div className="text-gray-300">
 				I recently learned that Tanner, the lead on your project, is no longer

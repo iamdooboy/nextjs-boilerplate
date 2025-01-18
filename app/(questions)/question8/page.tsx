@@ -5,7 +5,7 @@
 
 export default async function Page() {
 	return (
-		<div className="flex flex-col justify-items-center min-h-screen max-w-3xl p-20 gap-4 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+		<div className="flex flex-col justify-items-center  gap-4 font-[family-name:var(--font-geist-sans)]">
 			<h1 className="font-bold text-2xl">Question 8</h1>
 			<div className="text-gray-300">
 				How could we improve or alter this familiarization exercise?

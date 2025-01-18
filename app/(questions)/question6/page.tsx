@@ -1,11 +1,6 @@
-
-
-
-
-
 export default async function Page() {
 	return (
-		<div className="flex flex-col justify-items-center min-h-screen max-w-3xl p-20 gap-4 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+		<div className="flex flex-col justify-items-center gap-4 font-[family-name:var(--font-geist-sans)]">
 			<h1 className="font-bold text-2xl">Question 6</h1>
 			<div className="text-gray-300">
 				An Enterprise customer, new to Next.js and Vercel, asks about a high
@@ -13,12 +8,12 @@ export default async function Page() {
 				have two questions:
 			</div>
 			<div className="text-gray-300">
-				Why didn&apos;t my MIUs cover this bill? I didn&apos;t use all my MIUs la
-				month...so why didn&apos;t those roll over?
+				Why didn&apos;t my MIUs cover this bill? I didn&apos;t use all my MIUs
+				la month...so why didn&apos;t those roll over?
 			</div>
 			<div className="text-gray-300">
-				What would be the best way to help mitigate this so we don&apos;t se these
-				overage bills in the future?
+				What would be the best way to help mitigate this so we don&apos;t se
+				these overage bills in the future?
 			</div>
 			<div className="text-gray-300">
 				Feel free to use AI to help supplement your answer, but only use AI to
@@ -35,14 +30,14 @@ export default async function Page() {
 				usage purchased by a customer that does not roll over every month.
 			</div>
 			<h1 className="font-bold text-2xl">Answer</h1>
-			<div className="text-gray-300">Hi enterprise customer,</div>
+			<div className="text-gray-300">Hi there,</div>
 			<div className="text-gray-300">
-				I&apos;d be delighted to answer your questions. Your MIUs didn&apos;t cover this
-				month&apos;s billing cycle because MIUs by design do not roll over.This means
-				that any unused MIUs from the previous month will expire at the end of
-				the billing period. Your overage charges were due to high fast origin
-				transfer and fast data transfer usage that exceeded your allocated MIUs
-				for the month.
+				I&apos;d be delighted to answer your questions. Your MIUs didn&apos;t
+				cover this month&apos;s billing cycle because MIUs by design do not roll
+				over.This means that any unused MIUs from the previous month will expire
+				at the end of the billing period. Your overage charges were due to high
+				fast origin transfer and fast data transfer usage that exceeded your
+				allocated MIUs for the month.
 			</div>
 			<div className="text-gray-300">
 				Here are some strategies you can use to optimize your data to mitigate
@@ -54,8 +49,16 @@ export default async function Page() {
 				with relevant data, excluding unnecessary API fields
 			</div>
 			<div className="text-gray-300">
-				- Add caching headers to the function response. Learn more about caching
-				https://vercel.com/docs/edge-network/caching
+				- Add caching headers to the function response. Learn more about&nbsp;
+				<span className="underline">
+					<a
+						href="https://vercel.com/docs/edge-network/caching"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						caching
+					</a>
+				</span>
 			</div>
 			<div className="text-gray-300">
 				- Ensure your Function supports If-Modified-Since or Etag to prevent
@@ -64,19 +67,43 @@ export default async function Page() {
 			<div className="text-gray-300">
 				- If using Middleware, consider setting a matcher to restrict what
 				requests run middleware to prevent fast origin transfer usage from
-				accruing twice. Learn more about match
-				https://nextjs.org/docs/app/building-your-application/routing/middleware#matcher
+				accruing twice. Learn more about&nbsp;
+				<span className="underline">
+					<a
+						href="https://nextjs.org/docs/app/building-your-application/routing/middleware#matcher"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						matcher
+					</a>
+				</span>
 			</div>
 			<div className="text-gray-300">Optimizing Fast Data Transfer</div>
 			<div className="text-gray-300">
-				- Use Vercel&apos;s Image Optimization to serve optimized media tailored to
-				the requesting device. Learn more about Image Optimization
-				https://vercel.com/docs/image-optimization
+				- Use Vercel&apos;s Image Optimization to serve optimized media tailored
+				to the requesting device. Learn more about&nbsp;
+				<span className="underline">
+					<a
+						href="https://vercel.com/docs/image-optimization"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Image Optimization
+					</a>
+				</span>
 			</div>
 			<div className="text-gray-300">
 				- Analyze and reduce the size of your bundles to reduce data transfer
-				costs. For Next.js, check out this guide
-				https://nextjs.org/docs/app/building-your-application/optimizing/bundle-analyzer
+				costs. For Next.js, check out this&nbsp;
+				<span className="underline">
+					<a
+						href="https://nextjs.org/docs/app/building-your-application/optimizing/bundle-analyzer"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						guide
+					</a>
+				</span>
 			</div>
 			<div className="text-gray-300">
 				- Use the Monitoring tab to further analyze data transfer of your

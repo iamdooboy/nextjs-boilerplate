@@ -1,11 +1,6 @@
-
-
-
-
-
 export default async function Page() {
 	return (
-		<div className="flex flex-col justify-items-center min-h-screen max-w-3xl p-20 gap-4 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+		<div className="flex flex-col justify-items-center   gap-4  font-[family-name:var(--font-geist-sans)]">
 			<h1 className="font-bold text-2xl">Question 4</h1>
 			<div className="text-gray-300">
 				An Enterprise customer who has been sold Vercel through a reseller
@@ -21,30 +16,77 @@ export default async function Page() {
 			<h1 className="font-bold text-2xl">Answer</h1>
 			<div className="text-gray-300">Hi Clara,</div>
 			<div className="text-gray-300">
-				I hope this email finds you well! I wanted to reach out and introduce you to Vercel.
-				Vercel is a platform that helps teams build and launch modern websites
-				and applications quickly and efficiently. It takes care of all the
-				technical details, so your developers can focus on creating great
-				experiences for your users. With Vercel, your website is fast,
+				I hope this email finds you well! I wanted to reach out and introduce
+				you to Vercel. Vercel is a platform that helps teams build and launch
+				modern websites and applications quickly and efficiently. It takes care
+				of all the technical details, so your developers can focus on creating
+				great experiences for your users. With Vercel, your website is fast,
 				secure, and protected from threats like bots and online attacks.
 			</div>
 			<div className="text-gray-300">
-				If you&apos;d like to learn more about Vercel and what we offer, here are
-				some helpful resources:
+				If you&apos;d like to learn more about Vercel and what we offer, here
+				are some helpful resources:
 			</div>
+			<ul className='space-y-2'>
+			  <li className="text-gray-300">
+  				<span className="underline">
+  					<a
+  						href="https://vercel.com"
+  						target="_blank"
+  						rel="noopener noreferrer"
+  					>
+  						Vercel Homepage
+  					</a>
+  				</span>
+  			</li>
+  			<li className="text-gray-300">
+  				<span className="underline">
+  					<a
+  						href="https://vercel.com/docs"
+  						target="_blank"
+  						rel="noopener noreferrer"
+  					>
+  						Vercel Documentations
+  					</a>
+  				</span>
+  			</li>
+  			<li className="text-gray-300">
+  				<span className="underline">
+  					<a
+  						href="https://vercel.com/docs/getting-started-with-vercel"
+  						target="_blank"
+  						rel="noopener noreferrer"
+  					>
+  						Get started with Vercel
+  					</a>
+  				</span>
+  			</li>
+  			<li className="text-gray-300">
+  				<span className="underline">
+  					<a
+  						href="https://vercel.com/docs/frameworks/more-frameworks"
+  						target="_blank"
+  						rel="noopener noreferrer"
+  					>
+  						Supported Frameworks on Vercel
+  					</a>
+  				</span>
+  			</li>
+  			<li className="text-gray-300">
+  				<span className="underline">
+  					<a
+  						href="https://vercel.com/security"
+  						target="_blank"
+  						rel="noopener noreferrer"
+  					>
+  						Vercel Security
+  					</a>
+  				</span>
+  			</li>
+			</ul>
 			<div className="text-gray-300">
-				https://vercel.com https://vercel.com/docs
-			</div>
-			<div className="text-gray-300">
-				https://vercel.com/docs/getting-started-with-vercel
-			</div>
-			<div className="text-gray-300">
-				https://vercel.com/docs/frameworks/more-frameworks
-			</div>
-			<div className="text-gray-300">https://vercel.com/security</div>
-			<div className="text-gray-300">
-				If you have any questions or need more information, don&apos;t hesitate to
-				reach out!
+				If you have any questions or need more information, don&apos;t hesitate
+				to reach out!
 			</div>
 			<div className="text-gray-300">Best regards,</div>
 		</div>

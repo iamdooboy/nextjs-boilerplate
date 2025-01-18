@@ -1,6 +1,6 @@
 export default async function Page() {
 	return (
-		<div className="flex flex-col justify-items-center min-h-screen max-w-3xl p-20 gap-4 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+		<div className="flex flex-col justify-items-center  gap-4 font-[family-name:var(--font-geist-sans)]">
 			<h1 className="font-bold text-2xl">Question 5</h1>
 			<div className="text-gray-300">
 				A Pro customer who typically spends $900 monthly on Vercel has
@@ -37,15 +37,23 @@ export default async function Page() {
 			</div>
 			<div className="text-gray-300">
 				While reviewing your account, I also noticed some concerns with your
-				website&apos;s Core Web Vitals. Your Largest Contentful Paint (LCP) score
-				isn’t quite where it needs to be. Addressing this can improve the user
-				experience for your mobile game audience. You can learn more about LCP
-				here
-				https://vercel.com/docs/speed-insights/metrics#largest-contentful-paint-lcp
+				website&apos;s Core Web Vitals. Your Largest Contentful Paint (LCP)
+				score isn’t quite where it needs to be. Addressing this can improve the
+				user experience for your mobile game audience. You can learn more
+				about&nbsp;
+				<span className="underline">
+					<a
+						href="https://vercel.com/docs/speed-insights/metrics#largest-contentful-paint-lcp"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						LCP
+					</a>
+				</span>
 			</div>
 			<div className="text-gray-300">
-				I&apos;d love the chance to discuss some strategies to optimize your usage
-				while improving your site&apos;s performance.
+				I&apos;d love the chance to discuss some strategies to optimize your
+				usage while improving your site&apos;s performance.
 			</div>
 			<div className="text-gray-300">I look forward to hearing from you!</div>
 			<div className="text-gray-300">Best regards,</div>
